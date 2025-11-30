@@ -17,7 +17,6 @@ C.Step 1 in vscode:
 1. Index.html
 2.Dockerfile: FROM nginx:alpine
 COPY index.html /usr/share/nginx/html/index.html
- # Expose port 80 (documentation only; docker run -p does the mapping)
 EXPOSE 80
 3.Manually upload these files to the github
 repository
