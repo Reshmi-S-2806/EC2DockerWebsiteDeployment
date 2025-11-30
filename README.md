@@ -14,9 +14,13 @@ project-folder/
 ->Dockerfile
 
 C.Step 1 in vscode:
-1. Index.html2.Dockerfile: FROM nginx:alpine
+1. Index.html
+
+2.Dockerfile: FROM nginx:alpine
 COPY index.html /usr/share/nginx/html/index.html
-EXPOSE 803.Manually upload these files to the github
+EXPOSE 80
+
+3.Manually upload these files to the github
 repository
 
 D.Step 2 in AWS:
